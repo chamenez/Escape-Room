@@ -13,6 +13,7 @@ public class FPSController : MonoBehaviour
     public Camera playerCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
+    public int keyAmount = 0;
 
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
@@ -69,6 +70,14 @@ public class FPSController : MonoBehaviour
             rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Key")
+        {
+            keyAmount += 1;
+            Destroy(other.gameObject);
         }
     }
 }
