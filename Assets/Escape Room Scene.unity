@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5790338, g: 0.95001584, b: 1.0070544, a: 1}
+  m_IndirectSpecularColor: {r: 0.57903373, g: 0.95001584, b: 1.0070541, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2494,10 +2494,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 180b846d5c6df6d46830f4d9cb6a850e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 357300283}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 180b846d5c6df6d46830f4d9cb6a850e, type: 3}
 --- !u!4 &234407024 stripped
 Transform:
@@ -15136,7 +15133,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ea7102f209d3b2d47a07bcebac422521, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.99336433
+      value: -0.22
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ea7102f209d3b2d47a07bcebac422521, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15144,7 +15141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ea7102f209d3b2d47a07bcebac422521, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.107956
+      value: -8.59
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ea7102f209d3b2d47a07bcebac422521, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15478,10 +15475,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6a774a78ed7ed0c439231f372bc30897, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 724168600}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a774a78ed7ed0c439231f372bc30897, type: 3}
 --- !u!4 &1485849162 stripped
 Transform:
@@ -18735,10 +18729,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b87aa3f2bcdebd34987878bca4f17d2e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 825390826}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b87aa3f2bcdebd34987878bca4f17d2e, type: 3}
 --- !u!4 &1744930076 stripped
 Transform:
@@ -19244,10 +19235,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ba414b35dd64e34ab57237e34fe33cb, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 938223938}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ba414b35dd64e34ab57237e34fe33cb, type: 3}
 --- !u!4 &1765122455 stripped
 Transform:
@@ -20183,10 +20171,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cf4a664a179abe844826169cb6ef9e0e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 769707620}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf4a664a179abe844826169cb6ef9e0e, type: 3}
 --- !u!4 &1837355231 stripped
 Transform:
@@ -23090,10 +23075,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 052d6223fcc5b084b8bd0b8d1e7021bf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1047765595}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 052d6223fcc5b084b8bd0b8d1e7021bf, type: 3}
 --- !u!4 &2123300417 stripped
 Transform:
