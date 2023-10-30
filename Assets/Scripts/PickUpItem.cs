@@ -29,9 +29,10 @@ public class PickUpItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.P) && itemIsPickedUp == true && readyToThrow)
+        if(Input.GetKey(KeyCode.E) && itemIsPickedUp == true && readyToThrow)
         {
-            forceMulti = Math.Min(20, forceMulti + 300 * Time.deltaTime);
+            //forceMulti = Math.Min(20, forceMulti + 300 * Time.deltaTime);
+            forceMulti += 200 * Time.deltaTime;
         }
 
         pickUpDistance = Vector3.Distance(player.position, transform.position);
@@ -45,7 +46,7 @@ public class PickUpItem : MonoBehaviour
 
         if (pickUpDistance <= 2)
         {
-            if(Input.GetKeyDown(KeyCode.P) && itemIsPickedUp == false && PickUpPoint.childCount < 1)
+            if(Input.GetKeyDown(KeyCode.E) && itemIsPickedUp == false && PickUpPoint.childCount < 1)
             {
                 GetComponent<Rigidbody>().useGravity = false;
                 GetComponent<BoxCollider>().enabled = false;
@@ -56,7 +57,7 @@ public class PickUpItem : MonoBehaviour
             }
         }
 
-        if(Input.GetKeyUp(KeyCode.P) && itemIsPickedUp == true)
+        if(Input.GetKeyUp(KeyCode.E) && itemIsPickedUp == true)
         {
             readyToThrow = true;
             if (forceMulti > 10)
