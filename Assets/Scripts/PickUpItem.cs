@@ -44,7 +44,7 @@ public class PickUpItem : MonoBehaviour
             this.transform.position = KeyResetPoint.position;
         }
 
-        if (pickUpDistance <= 2)
+        if (pickUpDistance <= 1)
         {
             if(Input.GetKeyDown(KeyCode.E) && itemIsPickedUp == false && PickUpPoint.childCount < 1)
             {
