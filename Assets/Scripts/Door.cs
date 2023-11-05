@@ -23,7 +23,7 @@ public class Door : MonoBehaviour
     {
         if (isOpen == true && Input.GetKey(KeyCode.E) && keys.keyAmount >= 1)
         {
-            //keys.keyAmount -= 1;
+            keys.keyAmount -= 1;
             anim.SetTrigger("OpenDoor");
             isOpen = false;
             isClosed = false;
@@ -38,6 +38,7 @@ public class Door : MonoBehaviour
         }
     }
 
+    /*
     private void OnTriggerExit(Collider other)
     {
         if (isClosed == false)
@@ -45,4 +46,5 @@ public class Door : MonoBehaviour
             anim.SetTrigger("CloseDoor");
         }
     }
+    */
 }
