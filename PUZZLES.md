@@ -21,6 +21,7 @@
 * 310 is the number code used to unlock the exit door (or chest?) TBD
 * The time on the clock uses the numbers found in all the rooms, 1 number per room
 2. Player finds a book and reads the number "0"
+3. Picture puzzle on the wall- move pieces until the cat picture appears. When the player solves the puzzle, a painting left of this one falls down and reveals a clue.
 
   ## Kitchen
 
