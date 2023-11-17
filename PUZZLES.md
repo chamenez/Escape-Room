@@ -11,7 +11,7 @@
 1. Puzzle, jump on top of the shelf above the toilet then pick up the book to find the key.
 * Once player has the key, they can open the door to the bedroom
 2. Player finds a book and reads the number "1"
-3. Laptop in the bathroom bath tub unlocks the clue `book`. Numbers on books are used for the clock puzzle.
+3. Laptop in the bathroom bath tub unlocks the clue `book`. Numbers on books are used for the clock puzzle harmonized with hinting at a hidden key under a book in the bathroom.
 <img width="430" alt="image" src="https://github.com/chamenez/Escape-Room/assets/27694443/cde04a3f-2b7a-477b-8dde-0e6d8ec435b1">
 
 
