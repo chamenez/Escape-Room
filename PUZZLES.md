@@ -5,6 +5,7 @@
 1. Jump on top of the cardboard boxes, walk across the door to the ironing board and top of bed, and find the key on top.
 * This key opens up the living room. 
 2. Player finds a book and reads the number "3"
+3. Player opens the drawer door, finds the book with "DEB EMARF" on it, and unlocks the clue "BED FRAME". The hint is used to find the key on the bed frame.
 
 ## Bathroom
 
