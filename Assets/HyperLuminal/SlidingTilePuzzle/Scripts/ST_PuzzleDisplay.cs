@@ -257,7 +257,7 @@ public class ST_PuzzleDisplay : MonoBehaviour
 						Complete = false;
 					}
 					
-					Debug.Log($"Tile [{i}, {j}] CorrectLocation: {tile.CorrectLocation}");
+//					Debug.Log($"Tile [{i}, {j}] CorrectLocation: {tile.CorrectLocation}");
 				}
 				
 			}
