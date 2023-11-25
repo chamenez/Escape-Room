@@ -16,6 +16,7 @@ public class PickUpItem : MonoBehaviour
     public bool itemIsPickedUp;
 
     private Rigidbody rb;
+    private DateTime lastFlipped;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,7 @@ public class PickUpItem : MonoBehaviour
         player = GameObject.Find("Player").transform;
         PickUpPoint = GameObject.Find("PickUpPoint").transform;
         KeyResetPoint = GameObject.Find("KeyResetPoint").transform;
+        lastFlipped = System.DateTime.Now;
     }
 
     // Update is called once per frame
@@ -33,6 +35,16 @@ public class PickUpItem : MonoBehaviour
         {
             //forceMulti = Math.Min(20, forceMulti + 300 * Time.deltaTime);
             forceMulti += 200 * Time.deltaTime;
+        }
+
+        if (Input.GetKey(KeyCode.F) && itemIsPickedUp == true && readyToThrow)
+        {
+            DateTime currentTime = System.DateTime.Now;
+            if (currentTime.Subtract(lastFlipped).TotalSeconds > 0.2)
+            {
+                lastFlipped = currentTime;
+                this.transform.Rotate(180, 0, 0);
+            }
         }
 
         pickUpDistance = Vector3.Distance(player.position, transform.position);

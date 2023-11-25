@@ -45,51 +45,51 @@ namespace NavKeypad {
             playerDistance = Vector3.Distance(player.position, keypad.position);
             if (playerDistance <= 1)
             {
-                if (Input.GetKeyDown(KeyCode.Alpha0))
+                if (Input.GetKeyDown(KeyCode.Alpha0) || Input.GetKeyDown(KeyCode.Keypad0))
                 {
                     btn0.PressButton();
                 }
-                else if (Input.GetKeyDown(KeyCode.Alpha1))
+                else if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
                 {
                     btn1.PressButton();
                 }
-                else if (Input.GetKeyDown(KeyCode.Alpha2))
+                else if (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2))
                 {
                     btn2.PressButton();
                 }
-                else if (Input.GetKeyDown(KeyCode.Alpha3))
+                else if (Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3))
                 {
                     btn3.PressButton();
                 }
-                else if (Input.GetKeyDown(KeyCode.Alpha4))
+                else if (Input.GetKeyDown(KeyCode.Alpha4) || Input.GetKeyDown(KeyCode.Keypad4))
                 {
                     btn4.PressButton();
                 }
-                else if (Input.GetKeyDown(KeyCode.Alpha5))
+                else if (Input.GetKeyDown(KeyCode.Alpha5) || Input.GetKeyDown(KeyCode.Keypad5))
                 {
                     btn5.PressButton();
                 }
-                else if (Input.GetKeyDown(KeyCode.Alpha6))
+                else if (Input.GetKeyDown(KeyCode.Alpha6) || Input.GetKeyDown(KeyCode.Keypad6))
                 {
                     btn6.PressButton();
                 }
-                else if (Input.GetKeyDown(KeyCode.Alpha7))
+                else if (Input.GetKeyDown(KeyCode.Alpha7) || Input.GetKeyDown(KeyCode.Keypad7))
                 {
                     btn7.PressButton();
                 }
-                else if (Input.GetKeyDown(KeyCode.Alpha8))
+                else if (Input.GetKeyDown(KeyCode.Alpha8) || Input.GetKeyDown(KeyCode.Keypad8))
                 {
                     btn8.PressButton();
                 }
-                else if (Input.GetKeyDown(KeyCode.Alpha9))
+                else if (Input.GetKeyDown(KeyCode.Alpha9) || Input.GetKeyDown(KeyCode.Keypad9))
                 {
                     btn9.PressButton();
                 }
-                else if (Input.GetKeyDown(KeyCode.Return))
+                else if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
                 {
                     btnEnter.PressButton();
                 }
-                else if (Input.GetKeyDown(KeyCode.Backspace))
+                else if (Input.GetKeyDown(KeyCode.Backspace) || Input.GetKeyDown(KeyCode.Delete))
                 {
                     keypadObject.ClearInput();
                 }
